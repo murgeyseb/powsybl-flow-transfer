@@ -258,7 +258,7 @@ public final class ExampleGenerator {
     public static FlowTransferAnalysisInput input() {
         return new FlowTransferAnalysisInput(Arrays.asList("FR-BE", "FR-DE"));
     }
-
+/*
     @AutoService(SensitivityAnalysisProvider.class)
     public static class SensitivityAnalysisProviderMock implements SensitivityAnalysisProvider {
         private static final double FAKE_SENSITIVITY_VALUE = Double.NaN;
@@ -322,4 +322,5 @@ public final class ExampleGenerator {
             return "v0";
         }
     }
+ */
 }

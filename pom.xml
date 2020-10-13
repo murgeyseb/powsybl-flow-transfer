@@ -12,6 +12,7 @@
         <java.version>11</java.version>
         <junit.jupiter.version>5.6.2</junit.jupiter.version>
         <maven.compiler.version>3.8.1</maven.compiler.version>
+        <powsybl.rte.version>2.15.0-SNAPSHOT</powsybl.rte.version>
         <powsybl.version>3.8.0-SNAPSHOT</powsybl.version>
     </properties>
 
@@ -46,6 +47,12 @@
             <groupId>com.powsybl</groupId>
             <artifactId>powsybl-iidm-impl</artifactId>
             <version>${powsybl.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.rte-france.powsybl</groupId>
+            <artifactId>powsybl-hades2-integration</artifactId>
+            <version>${powsybl.rte.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
